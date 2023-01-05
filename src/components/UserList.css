@@ -1,0 +1,151 @@
+.singleuser_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.goback button {
+    width: 90px;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.goback button:active {
+    background-color: rgb(193, 193, 193);
+}
+
+.goback button svg {
+    font-size: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.usercard {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.cardleft {
+    width: 30%;
+    height: 70%;
+    background-color: rgba(127, 255, 212, 0.334);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(127, 255, 212);
+}
+
+.cardleft img {
+    border-radius: 10px;
+}
+
+.cardright {
+    width: 60%;
+    height: 70%;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(127, 255, 212);
+}
+
+.namesection {
+    height: 30%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+
+}
+
+.namesection p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: purple;
+    margin-left: 10px;
+}
+
+.emailsection {
+    height: 30%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.namesection svg {
+    font-size: 30px;
+}
+
+.emailsection svg {
+    font-size: 30px;
+}
+
+.emailsection p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: purple;
+    margin-left: 10px;
+}
+
+.loader_main {
+    height: 250px;
+    width: 600px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imageloader {
+    width: 30%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.detailloader {
+    width: 65%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailtop{
+    height: 40px;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+}
+.detailbottom{
+    margin-top: 10px;
+    height: 40px;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+}
